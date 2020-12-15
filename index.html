@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"  >
+  <link rel="stylesheet" href="style.css">
+  <title>Add Book App</title>
+</head>
+<div class="p-10">
+  <div class="container">
+    <div class="row">
+    <div class="card text-center bg-light col-6 offset-3">
+      <div class="card-body">
+      <h3 class="text-rimary display-4">Add Book</h3>
+        <form class="form-group" id="form">
+          <div>
+          <label for="title" class="text-primary form-item">Enter a title for the book</label>
+          <input type="text" class="form-control form-item p-10" id="title" placeholder="Enter book title">
+          </div>
+          <div>
+          <label for="title" class="text-primary form-item">Author</label>
+          <input type="text" class="form-control form-item p-10" id="author" placeholder="Enter book author">
+          </div>
+          <div>
+          <label for="title" class="text-primary form-item">ISBN</label>
+          <input type="text" class="form-control form-item p-10" id="isbn" placeholder="Enter ISBN">
+          </div>
+          <div>
+            <input type="Submit" class="btn submit btn-outline-primary btn-block" id="submit">
+          </div>
+        </form>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div class="text-muted text-right font-italic">App created by Rigers Leka</div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
+
